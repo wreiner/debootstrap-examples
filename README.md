@@ -1,6 +1,12 @@
-# debootstrap
+# debootstrap examples
 
-Automatic setup of Debian.
+Automatic setup Debian with encrypted software RAID1 and UEFI.
+
+## Introduction
+
+For the examples a Grml live boot environment is used.
+
+The examples in the directory _efi-swraid1_ creates three partitions on two disks, creates software RAID1 arrays for /boot and encrypted LVM and installs Debian using debootstrap booting from UEFI.
 
 ## Repair failed device
 
